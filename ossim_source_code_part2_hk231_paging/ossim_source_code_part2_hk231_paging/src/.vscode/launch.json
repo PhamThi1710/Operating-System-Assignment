@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "os",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "os_0_mlq_paging"
+      ],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/study/Operating system/ossim_source_code_part2_hk231_paging/ossim_source_code_part2_hk231_paging/include",
+      "program": "${workspaceFolder}/os",//"d:/study/Operating system/ossim_source_code_part2_hk231_paging/ossim_source_code_part2_hk231_paging/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
